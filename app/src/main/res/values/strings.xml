@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Rentley</string>
+    <string name="todo">TODO</string>
+    <string name="rentley">RentLey</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="button">Button</string>
+    <string name="title_activity_main_home">Main_home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_account" />
+    <string name="register">REGISTER</string>
+    <string name="facebook_application_id" translatable="false">1934000370004543</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">1934000370004543</string>
+</resources>

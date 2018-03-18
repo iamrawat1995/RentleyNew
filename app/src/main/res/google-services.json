@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "654626374327",
+    "firebase_url": "https://rentley-99.firebaseio.com",
+    "project_id": "rentley-99",
+    "storage_bucket": "rentley-99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654626374327:android:380220629d26382e",
+        "android_client_info": {
+          "package_name": "com.example.ankitrawat.rentley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654626374327-qnq74b6or71pb23q9d77uefb7guqnteu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankitrawat.rentley",
+            "certificate_hash": "afa50682699c943bf54dfc5979b5236915e6918c"
+          }
+        },
+        {
+          "client_id": "654626374327-2bpf9k2hnkvfiutv6m30vu1670evb5fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5pcfiOMzuFAO0oFpdWZ1kOqe9tE6p1g8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654626374327-2bpf9k2hnkvfiutv6m30vu1670evb5fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
