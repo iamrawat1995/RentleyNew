@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class WelcomeActivity extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT = 4000;
+    private static int SPLASH_TIME_OUT = 2500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,8 @@ public class WelcomeActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent homeIntent = new Intent(WelcomeActivity.this, MainActivity.class);
+                Intent homeIntent = new Intent(WelcomeActivity.this,
+                        Login.class);
                 startActivity(homeIntent);
                 finish();
             }

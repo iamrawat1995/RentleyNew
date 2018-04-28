@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/homeNav" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="@string/myaccountNav" />
+    <item
+        android:id="@+id/nav_details"
+        android:icon="@drawable/ic_details_black_24dp"
+        android:title="@string/tenantdetailsNav" />
+    <item
+        android:id="@+id/nav_reports"
+        android:icon="@drawable/ic_reports_black_24dp"
+        android:title="@string/reportsNav" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout_24dp"
+        android:title="LogOut" />
+
+
+
+</menu>

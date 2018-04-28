@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTenantActivity"
+    android:background="@color/lightOrange">
+    <include
+        android:id="@+id/tenant_toolbar"
+        layout="@layout/app_bar_layout">
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                app:srcCompat="@drawable/app_logo1" />
+
+            <EditText
+                android:id="@+id/tenant_fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/input"
+                android:layout_below="@+id/imageLogo"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Full Name"/>
+            <EditText
+                android:id="@+id/tenant_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenant_fullName"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/input"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Mobile"/>
+            <EditText
+                android:id="@+id/tenant_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenant_mobile"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/input"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Address"/>
+            <Button
+                android:id="@+id/tenant_info_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tenant_address"
+                android:textStyle="bold"
+                android:text="Save"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:textColor="@color/colorAccent"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
